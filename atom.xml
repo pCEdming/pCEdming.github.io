@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Whiting互联网边缘の小屋</title>
   <icon>http://example.com/icon.png</icon>
   
   <link href="http://example.com/atom.xml" rel="self"/>
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;p&gt;这个是测试插入图片&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/gou.jpeg&quot; alt=&quot;gou&quot;</summary>
+&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/gou.jpeg&quot;</summary>
         
       
     
@@ -72,7 +72,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#测试&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#测试&quot;&gt;#&lt;/a&gt;</summary>
         
       
     
