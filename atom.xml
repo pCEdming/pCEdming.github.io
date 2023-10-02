@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-02T12:02:21.138Z</updated>
+  <updated>2023-10-02T12:05:29.054Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2023/10/02/test3/"/>
+    <id>http://example.com/2023/10/02/test3/</id>
+    <published>2023-10-02T12:04:53.698Z</published>
+    <updated>2023-10-02T12:05:29.054Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这个是测试插入图片&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/gou.jpeg&quot; alt=&quot;gou&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -50,7 +72,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#测试&quot;&gt;#&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#测试&quot;&gt;&lt;/a&gt;</summary>
         
       
     
