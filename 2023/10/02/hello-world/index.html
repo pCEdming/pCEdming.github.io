@@ -9,7 +9,7 @@
 <link rel="shortcut icon" href="/favicon/favicon.ico">
 
 
-<link rel="stylesheet" href="/lib/highlight/railscasts.css">
+<link rel="stylesheet" href="/lib/highlight/monokai-sublime.css">
 
 
 <link rel="stylesheet" href="/lib/fancybox/jquery.fancybox.min.css">
@@ -144,74 +144,14 @@
   comment:
   <ul>
     
-      <li><a href="#Valine">Valine</a></li>
     
-    
-      <li><a href="#LiveRe">LiveRe</a></li>
-    
-    
-      <li><a href="#ChangYan">ChangYan</a></li>
     
   </ul>
   
-  
-    <div id="ChangYan">
-      <!--PC和WAP自适应版-->
-      <div id="SOHUCS" ></div> 
-      <script type="text/javascript"> 
-      (function(){ 
-      var appid = 'cyuGH4lBk'; 
-      var conf = 'ae32d85e4ca99348209aedfd3ae01478'; 
-      var width = window.innerWidth || document.documentElement.clientWidth; 
-      if (width < 960) {
-      var head = document.getElementsByTagName('head')[0]||document.head||document.documentElement;
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.charset = 'utf-8';
-      script.id = 'changyan_mobile_js';
-      script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
-      head.appendChild(script);
-      } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); 
-      </script>
-    </div>
    
   
   
-    <div id="LiveRe">
-      
-        <!-- LiveRe City install code -->
-        <div id="lv-container" data-id="city" data-uid="MTAyMC80NjA4MS8yMjU5Mg==">
-          <script type="text/javascript">
-            (function(d, s) {
-              var j, e = d.getElementsByTagName(s)[0];
-              if (typeof LivereTower === 'function') { return; }
-              j = d.createElement(s);
-              j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-              j.async = true;
-              e.parentNode.insertBefore(j, e);
-            })(document, 'script');
-          </script>
-          <noscript>Please activate JavaScript for write a comment in LiveRe</noscript>
-          </div>
-          <!-- completed City install code -->
-        
-    </div>
   
-  
-  
-    <div id="Valine">
-      <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-      <div id="vcomments"></div>
-      <script>
-        new Valine({
-          el: '#vcomments',
-          appId: '5bHFwYPW2iHWCiV7WmNRSenk-gzGzoHsz',
-          appKey: '2q4UgVDTmeJf9Phe8VbnNKyC',
-          avatar: 'monsterid',
-          enableQQ: true
-        })
-      </script>
-    </div>
    
 </div>
 
