@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-03T04:39:30.175Z</updated>
+  <updated>2023-10-03T12:54:13.674Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://example.com/2023/10/02/hello-world/"/>
     <id>http://example.com/2023/10/02/hello-world/</id>
     <published>2023-10-02T01:45:28.276Z</published>
-    <updated>2023-10-03T04:39:30.175Z</updated>
+    <updated>2023-10-03T12:54:13.674Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="about"><a class="markdownIt-Anchor" href="#about"></a> About</h1><div class="story post-story"><h2 id="why"><a class="markdownIt-Anchor" href="#why"></a> Why</h2><ul><li>这个阶段当然是在网络上看到了好多大佬很炫酷的博客,于是萌生出了自己也搞一个的想法,于是就有了这个,当然这看起来好像不是那么炫酷,这个就等后期慢慢开发了,我目前是这么个水平,当前有在学习计算机网络和前端.</li></ul></div><div class="story post-story"><h2 id="here-is-what"><a class="markdownIt-Anchor" href="#here-is-what"></a> Here is what</h2><p>这里是一个个人空间,有在学习计算机相关的知识,目前会更新<strong>数据结构与算法、题解、学习心得、考研相关、英语学习</strong></p><h3 id="further"><a class="markdownIt-Anchor" href="#further"></a> Further</h3><p>鉴于本人正在学习英语,而且应该是有一些虚荣心作祟(也不好描述,姑且称为虚荣吧)我感觉全英会显得很高级,所以有些我会逐步写一下全英文章</p></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="about"><a class="markdownIt-Anchor" href="#about">#</a> About</h1><div class="story post-story"><h2 id="why"><a class="markdownIt-Anchor" href="#why">#</a> Why</h2><ul><li>这个阶段当然是在网络上看到了好多大佬很炫酷的博客，于是萌生出了自己也搞一个的想法，于是就有了这个，当然这看起来好像不是那么炫酷，这个就等后期慢慢开发了，我目前是这么个水平，当前有在学习计算机网络和前端.</li></ul></div><div class="story post-story"><h2 id="here-is-what"><a class="markdownIt-Anchor" href="#here-is-what">#</a> Here is what</h2><p>这里是一个个人空间，有在学习计算机相关的知识，目前会更新<strong>数据结构与算法、题解、学习心得、考研相关、英语学习</strong></p><h3 id="further"><a class="markdownIt-Anchor" href="#further">#</a> Further</h3><p>鉴于本人正在学习英语，而且应该是有一些虚荣心作祟 (也不好描述，姑且称为虚荣吧) 我感觉全英会显得很高级，所以有些我会逐步写一下全英文章</p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;about&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#about&quot;&gt;&lt;/a&gt; About&lt;/h1&gt;
-&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;why&quot;&gt;&lt;a class=&quot;markdownIt-An</summary>
+    <summary type="html">&lt;h1 id=&quot;about&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#about&quot;&gt;#&lt;/a&gt; About&lt;/h1&gt;
+&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;why&quot;&gt;&lt;a class=&quot;markdownIt-A</summary>
       
     
     
