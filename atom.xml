@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-02T13:25:13.864Z</updated>
+  <updated>2023-10-03T04:37:06.458Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,128 +18,18 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2023/10/02/test5/"/>
-    <id>http://example.com/2023/10/02/test5/</id>
-    <published>2023-10-02T13:24:35.855Z</published>
-    <updated>2023-10-02T13:25:13.864Z</updated>
-    
-    <content type="html"><![CDATA[<p>Insert a p</p><p><img src="/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg" class="lazyload" data-srcset="/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="gou"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Insert a p&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg&quot; class=&quot;lazyload&quot; data-srcset=&quot;/Users/whiting/Deskto</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2023/10/02/test4/"/>
-    <id>http://example.com/2023/10/02/test4/</id>
-    <published>2023-10-02T13:20:30.985Z</published>
-    <updated>2023-10-02T13:20:37.076Z</updated>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-      
-      
-    <summary type="html">
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2023/10/02/test3/"/>
-    <id>http://example.com/2023/10/02/test3/</id>
-    <published>2023-10-02T12:04:53.698Z</published>
-    <updated>2023-10-02T12:05:29.054Z</updated>
-    
-    <content type="html"><![CDATA[<p>这个是测试插入图片</p><p><img src="/Users/whiting/Desktop/gou.jpeg" class="lazyload" data-srcset="/Users/whiting/Desktop/gou.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="gou"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这个是测试插入图片&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/gou.jpeg&quot; class=&quot;lazyload&quot; data-srcset=&quot;/Users/whiting/Desktop/gou.jpeg&quot; srcset=&quot;data:i</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2023/10/02/test2/"/>
-    <id>http://example.com/2023/10/02/test2/</id>
-    <published>2023-10-02T12:01:49.733Z</published>
-    <updated>2023-10-02T12:02:21.138Z</updated>
-    
-    <content type="html"><![CDATA[<p>这个文件是测试一下文章的封面显示是否正常</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这个文件是测试一下文章的封面显示是否正常&lt;/p&gt;
-
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2023/10/02/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://example.com/2023/10/02/%E6%B5%8B%E8%AF%95/</id>
-    <published>2023-10-02T08:40:43.710Z</published>
-    <updated>2023-10-02T08:40:43.710Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="测试"><a class="markdownIt-Anchor" href="#测试">#</a> 测试</h1><blockquote><p>这是一个测试文章</p></blockquote><p>我是一名来自山东滕州的学生</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#测试&quot;&gt;#&lt;/a&gt; 测试&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这是一个测试文章&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我是一名来自山东滕州的学生&lt;/p&gt;
-
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
     <link href="http://example.com/2023/10/02/hello-world/"/>
     <id>http://example.com/2023/10/02/hello-world/</id>
     <published>2023-10-02T01:45:28.276Z</published>
-    <updated>2023-10-02T01:45:28.276Z</updated>
+    <updated>2023-10-03T04:37:06.458Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><div class="story post-story"><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start">#</a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post">#</a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server">#</a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files">#</a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="baout"><a class="markdownIt-Anchor" href="#baout">#</a> Baout</h1><div class="story post-story"><h2 id="why"><a class="markdownIt-Anchor" href="#why">#</a> Why</h2><ul><li>这个阶段当然是在网络上看到了好多大佬很炫酷的博客，于是萌生出了自己也搞一个的想法，于是就有了这个，当然这看起来好像不是那么炫酷，这个就等后期慢慢开发了，我目前是这么个水平，当前有在学习计算机网络和前端.</li></ul></div><div class="story post-story"><h2 id="here-is-what"><a class="markdownIt-Anchor" href="#here-is-what">#</a> Here is what</h2><p>这里是一个个人空间，有在学习计算机相关的知识，目前会更新<strong>数据结构与算法、题解、学习心得、考研相关、英语学习</strong></p><h3 id="further"><a class="markdownIt-Anchor" href="#further">#</a> Further</h3><p>鉴于本人正在学习英语，而且应该是有一些虚荣心作祟 (也不好描述，姑且称为虚荣吧) 我感觉全英会显得很高级，所以有些我会逐步写一下全英文章</p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;baout&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#baout&quot;&gt;#&lt;/a&gt; Baout&lt;/h1&gt;
+&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;why&quot;&gt;&lt;a class=&quot;markdownIt-A</summary>
       
     
     
