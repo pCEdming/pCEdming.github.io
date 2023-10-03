@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Whiting互联网边缘の小屋</title>
-  <icon>http://example.com/icon.png</icon>
+  
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
@@ -23,14 +23,13 @@
     <published>2023-10-02T13:24:35.855Z</published>
     <updated>2023-10-02T13:25:13.864Z</updated>
     
+    <content type="html"><![CDATA[<p>Insert a p</p><p><img src="/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg" class="lazyload" data-srcset="/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="gou"></p>]]></content>
+    
     
       
       
-        
-        
     <summary type="html">&lt;p&gt;Insert a p&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg&quot;</summary>
-        
+&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/blog/source/images/test5/gou.jpeg&quot; class=&quot;lazyload&quot; data-srcset=&quot;/Users/whiting/Deskto</summary>
       
     
     
@@ -45,6 +44,14 @@
     <published>2023-10-02T13:20:30.985Z</published>
     <updated>2023-10-02T13:20:37.076Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
     
     
     
@@ -58,14 +65,13 @@
     <published>2023-10-02T12:04:53.698Z</published>
     <updated>2023-10-02T12:05:29.054Z</updated>
     
+    <content type="html"><![CDATA[<p>这个是测试插入图片</p><p><img src="/Users/whiting/Desktop/gou.jpeg" class="lazyload" data-srcset="/Users/whiting/Desktop/gou.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="gou"></p>]]></content>
+    
     
       
       
-        
-        
     <summary type="html">&lt;p&gt;这个是测试插入图片&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/gou.jpeg&quot;</summary>
-        
+&lt;p&gt;&lt;img src=&quot;/Users/whiting/Desktop/gou.jpeg&quot; class=&quot;lazyload&quot; data-srcset=&quot;/Users/whiting/Desktop/gou.jpeg&quot; srcset=&quot;data:i</summary>
       
     
     
@@ -80,14 +86,14 @@
     <published>2023-10-02T12:01:49.733Z</published>
     <updated>2023-10-02T12:02:21.138Z</updated>
     
+    <content type="html"><![CDATA[<p>这个文件是测试一下文章的封面显示是否正常</p>]]></content>
+    
     
       
       
-        
-        
     <summary type="html">&lt;p&gt;这个文件是测试一下文章的封面显示是否正常&lt;/p&gt;
+
 </summary>
-        
       
     
     
@@ -102,13 +108,18 @@
     <published>2023-10-02T08:40:43.710Z</published>
     <updated>2023-10-02T08:40:43.710Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="测试"><a class="markdownIt-Anchor" href="#测试">#</a> 测试</h1><blockquote><p>这是一个测试文章</p></blockquote><p>我是一名来自山东滕州的学生</p>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot;</summary>
-        
+    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#测试&quot;&gt;#&lt;/a&gt; 测试&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一个测试文章&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我是一名来自山东滕州的学生&lt;/p&gt;
+
+</summary>
       
     
     
@@ -123,13 +134,12 @@
     <published>2023-10-02T01:45:28.276Z</published>
     <updated>2023-10-02T01:45:28.276Z</updated>
     
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><div class="story post-story"><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start">#</a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post">#</a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server">#</a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files">#</a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p></div>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
       
     
     
