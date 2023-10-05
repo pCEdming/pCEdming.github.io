@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-03T14:06:14.889Z</updated>
+  <updated>2023-10-05T13:41:52.405Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TCP提供的可靠数据传输服务</title>
+    <link href="http://example.com/2023/10/05/TCP%E6%8F%90%E4%BE%9B%E7%9A%84%E5%8F%AF%E9%9D%A0%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://example.com/2023/10/05/TCP%E6%8F%90%E4%BE%9B%E7%9A%84%E5%8F%AF%E9%9D%A0%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E6%9C%8D%E5%8A%A1/</id>
+    <published>2023-10-05T12:59:17.000Z</published>
+    <updated>2023-10-05T13:41:52.405Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="tcp提供的可靠数据传输服务"><a class="markdownIt-Anchor" href="#tcp提供的可靠数据传输服务">#</a> TCP 提供的可靠数据传输服务</h1><blockquote><p>在网络层服务，即 IP 服务，它不保证数据报能否交付，是否按次序交付，也不保证数据报中的数据的完整性</p></blockquote><p>TCP 在 IP 这种不可靠的服务之上建立了一种可靠数据传输服务。该服务确保一个进程从其接收缓存中读出的数据流是无损坏、无间隙、非冗余、按次序的数据流.</p><p><strong>根据 TCP 的一个高度简化的描述中:</strong></p><ol><li>从上层应用中接收数据</li><li>定时器超时</li><li>收到 ACK</li></ol><div class="story post-story"><h2 id="tcp在发送方的过程"><a class="markdownIt-Anchor" href="#tcp在发送方的过程">#</a> TCP 在发送方的过程</h2><ol><li>首先从上层应用程序中接收数据，生成有序列的报文段，当前 <mark>如果定时器未启动</mark> 则启动定时器，然后发送报文段.</li><li>定时器超时，这重传最小序列且未确定的报文段，之后启动定时器.</li><li>接收到对方的 ACK 报文，如果 ACK 号等于或大于发送方窗口中的最大序列号，则认为窗口中的所有报文都收到，关闭定时器，继续接收新数据.</li></ol><blockquote><p>这里有值得注意的一点：关于序号和确认号。序号就是报文段数据字段首字节的序号，确认号就是主机等待接收的数据的下一个序号.</p></blockquote><p><strong>上述过程有集中情况:</strong></p><ol><li>发送方发送的数据被接收方确认，但是接收放发送的确认丢失，这种情况发送方会重传该数据.</li><li>发送方连续发送了两个报文段，也被接收方确认，但是在确认的时候第一个数据超时了，这时候发送方会重发第一个数据，并重新启动定时器，但也就是这时候，第二个数据的确认号被发送方接收，因为第二个确认号是在新的超时发生之前到达的，则不会重发第二个报文段.</li><li>和第二种情况类似，只不过是第一个报文段的确认号在途中丢失，第二个报文段的确认号照常接收，此时会认为在第二个报文段之前的所有报文段都被接收，则不会重发第一个报文段.</li></ol></div><div class="story post-story"><h2 id="值得关注的事情"><a class="markdownIt-Anchor" href="#值得关注的事情">#</a> 值得关注的事情</h2><ul><li><p>超时间隔</p><p>很容易发现，每次重传的时候都会重启定时器，本来 x 的超时间隔就会变成 2x, 依次类推这个超时间隔是呈指数型增长！！！</p></li><li><p>快速重传</p><p>之前有看过<mark>回退 N 步</mark>和<mark>选择重传</mark>.<br>TCP 的发送方仅仅维护一个要确认的最小序列和要发送的下一个序列，但是和回退 N 步不同的是：TCP 会将失序的序号缓存.<br> 同时 TCP 不像选择重传那样累计的接收最后一个正确的有序报文段，而是可以选择的接收失序报文段.<br> 所以更像是两者的混合体.</p></li></ul></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;tcp提供的可靠数据传输服务&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#tcp提供的可靠数据传输服务&quot;&gt;#&lt;/a&gt; TCP 提供的可靠数据传输服务&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在网络层服务，即 IP 服务，它不保证数据</summary>
+      
+    
+    
+    
+    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="TCP协议" scheme="http://example.com/tags/TCP%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机网络概论</title>
