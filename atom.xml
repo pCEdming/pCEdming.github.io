@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-05T13:41:52.405Z</updated>
+  <updated>2023-10-09T14:07:21.043Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有向图的拓扑排序</title>
+    <link href="http://example.com/2023/10/09/%E6%9C%89%E5%90%91%E5%9B%BE%E7%9A%84%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/"/>
+    <id>http://example.com/2023/10/09/%E6%9C%89%E5%90%91%E5%9B%BE%E7%9A%84%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</id>
+    <published>2023-10-09T13:21:55.000Z</published>
+    <updated>2023-10-09T14:07:21.043Z</updated>
+    
+    <content type="html"><![CDATA[<div class="story post-story"><h2 id="定义"><a class="markdownIt-Anchor" href="#定义">#</a> 定义:</h2><p>英文名:<strong>Topological sorting</strong></p><p>给有向无环图所有的节点进行排序.</p><hr><p>对于一个已经排好序的拓扑序列是这样的:</p><p>只有从前往后指的箭头，<mark> 所以第一个节点的入度为 0</mark></p><p>在 acwing 的题解下面看到个转至 csdn 的一句话感觉不错:</p><blockquote><p>首先，我举一个例子，比如打游戏时，刚开始一个游戏，你一定要先打第一关，因为只有打通了第一关，才能解锁下一关或下几关，而不能上来就打第二关。特别地，第一关时不需要之前打任何一关，最后一关打完不会解锁任何一关。 ------- 转自 CSDN 用户_CorLéone_</p></blockquote><p><img src="https://gitee.com/whiting117/imgstore/raw/master/Picsee/IMG_9FC4798352B3-1-6860427lUwrih.jpeg" class="lazyload" data-srcset="https://gitee.com/whiting117/imgstore/raw/master/Picsee/IMG_9FC4798352B3-1-6860427lUwrih.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="IMG_9FC4798352B3-1"></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;定义&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#定义&quot;&gt;#&lt;/a&gt; 定义:&lt;/h2&gt;
+&lt;p&gt;英文名:&lt;strong&gt;Topological sorting&lt;/strong&gt;</summary>
+      
+    
+    
+    
+    <category term="题解" scheme="http://example.com/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="拓扑排序" scheme="http://example.com/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>TCP提供的可靠数据传输服务</title>
