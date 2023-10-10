@@ -1893,7 +1893,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1696922151443),
+    lastupdate: new Date(1696922346451),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2671,15 +2671,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='md article-desc' itemprop="articleBody">
     
       
-         定义:
+        # 定义:
 英文名:Topological sorting
 给有向无环图所有的节点进行排序.
 
 对于一个已经排好序的拓扑序列是这样的:
-只有从前往后指的箭头,所以第一个节点的入度为0
-在acwing的题解下面看到个转至csdn的一句话感觉不错:
+只有从前往后指的箭头， 所以第一个节点的入度为 0
+在 acwing 的题解下面看到个转至 csdn 的一句话感觉不错:
 
-首先，我举一个例子，比如打游戏时，刚开始一个游戏，你一定要先打第一关，因为只有打通了第一关，才能解锁下一关或下几关，而不能上来就打第二关。特别地，第...
+首先，我举一个例子，比如打游戏时，刚开始一个游戏，你一定要先打第一关，因为只有打通了第一关，才能解锁下一关或下几关，而不能上来就打第二...
       
     
   </div>
@@ -2750,20 +2750,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='md article-desc' itemprop="articleBody">
     
       
-         TCP提供的可靠数据传输服务
+        # TCP 提供的可靠数据传输服务
 
-在网络层服务,即IP服务,它不保证数据报能否交付,是否按次序交付,也不保证数据报中的数据的完整性
+在网络层服务，即 IP 服务，它不保证数据报能否交付，是否按次序交付，也不保证数据报中的数据的完整性
 
-TCP在IP这种不可靠的服务之上建立了一种可靠数据传输服务.该服务确保一个进程从其接收缓存中读出的数据流是无损坏、无间隙、非冗余、按次序的数据流.
-根据TCP的一个高度简化的描述中:
+TCP 在 IP 这种不可靠的服务之上建立了一种可靠数据传输服务。该服务确保一个进程从其接收缓存中读出的数据流是无损坏、无间隙、非冗余、按次序的数据流.
+根据 TCP 的一个高度简化的描述中:
 
 从上层应用中接收数据
 定时器超时
-收到ACK
+收到 ACK
 
- TCP在发送方的过程
-
-...
+# T...
       
     
   </div>
@@ -2834,22 +2832,21 @@ TCP在IP这种不可靠的服务之上建立了一种可靠数据传输服务.�
   <div class='md article-desc' itemprop="articleBody">
     
       
-         计算机网络:自顶向下
- 因特网
-因特网就是计算机网络的概称 通俗来讲就是“网络的网络”
- 因特网的构成
+        # 计算机网络：自顶向下
+# 因特网
+因特网就是计算机网络的概称 通俗来讲就是 “网络的网络”
+# 因特网的构成
 
 端系统或主机
 通信链路
-因特网服务提供商(ISP)
-以上结构都要运行多个[[协议]],其中最为重要的协议就是TCP/IP两个
+因特网服务提供商 (ISP)
+ 以上结构都要运行多个 [[协议]], 其中最为重要的协议就是 TCP/IP 两个
 
- 网络边缘
-我们通常把与因特网相连的计算机成为端系统,它们位于网络边缘
- 接入网
+# 网络边缘
+我们通常把与因特网相连的计算机成为端系统，它们位于网络边缘
+# 接入网
 
-家庭接入:DSL、电缆、 FTTH和5G固定式无线
-企业接入:以太网和Wi...
+家庭接入：DSL、电缆、 FTTH 和 5G 固定...
       
     
   </div>
@@ -2920,14 +2917,14 @@ TCP在IP这种不可靠的服务之上建立了一种可靠数据传输服务.�
   <div class='md article-desc' itemprop="articleBody">
     
       
-         高精度
-高精度算法是用python或Java是很简单的,这俩好像自带大数操作(恼
-但是我们是C++选手,还是按部就班来~
+        # 高精度
+高精度算法是用 python 或 Java 是很简单的，这俩好像自带大数操作 (恼
+但是我们是 C++ 选手，还是按部就班来～
 高精度一般是有加法、减法、乘法、除法
 乘法和除法一般是大数和小数
 其本质就是使用数组模拟我们人类的计算过程
- 高精度加法
-vector&lt;int&gt; add(vector&lt;int&gt; &amp;A,vector&lt;int&gt; &amp;B)&#...
+# 高精度加法
+12345678910111213vector&lt;int&gt; add(vector&lt;int&gt; &amp;A,v...
       
     
   </div>
@@ -2998,15 +2995,15 @@ vector&lt;int&gt; add(vector&lt;int&gt; &amp;A,vector&lt;int&gt; &amp;B)&#...
   <div class='md article-desc' itemprop="articleBody">
     
       
-         About
- Why
+        # About
+# Why
 
-这个阶段当然是在网络上看到了好多大佬很炫酷的博客,于是萌生出了自己也搞一个的想法,于是就有了这个,当然这看起来好像不是那么炫酷,这个就等后期慢慢开发了,我目前是这么个水平,当前有在学习计算机网络和前端.
+这个阶段当然是在网络上看到了好多大佬很炫酷的博客，于是萌生出了自己也搞一个的想法，于是就有了这个，当然这看起来好像不是那么炫酷，这个就等后期慢慢开发了，我目前是这么个水平，当前有在学习计算机网络和前端.
 
- Here is what
-这里是一个个人空间,有在学习计算机相关的知识,目前会更新数据结构与算法、题解、学习心得、考研相关、英语学习
- Further
-鉴于本人...
+# Here is what
+这里是一个个人空间，有在学习计算机相关的知识，目前会更新数据结构与算法、题解、学习心得、考研相关、英语学习
+# Further
+...
       
     
   </div>
@@ -4345,7 +4342,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <script>
-  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp"];
+  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp"];
   let index = 0;
   let IntervalParallax = null;
 
