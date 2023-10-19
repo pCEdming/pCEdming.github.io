@@ -1893,7 +1893,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1697620169632),
+    lastupdate: new Date(1697697677709),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2624,9 +2624,103 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
         
+          
+        
       
     
     
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/10/19/链路层中的差错检测和纠正技术/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Whiting互联网边缘の小屋">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="Whiting互联网边缘の小屋">
+    <meta itemprop="description" content="personn">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2023/10/19/%E9%93%BE%E8%B7%AF%E5%B1%82%E4%B8%AD%E7%9A%84%E5%B7%AE%E9%94%99%E6%A3%80%E6%B5%8B%E5%92%8C%E7%BA%A0%E6%AD%A3%E6%8A%80%E6%9C%AF/"  itemprop="url">
+        链路层中的差错检测和纠正技术
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+         前言: 链路层提供了哪些服务
+
+将网络层的数据报封装成帧
+链路接入
+通过确认和重传的可靠传输
+差错检测和纠正
+
+ 链路层的差错检测
+本文介绍两种技术:
+
+奇偶校正检测
+循环冗余检测
+
+ 奇偶校正检测
+
+奇偶校正的结构包括d位的数据和1位的校验码
+奇校验:总共有奇数个1
+偶校验:总共有偶数个1
+对于奇校验:
+错1位-----&gt;可以检测出错误
+错2位-----&gt;检测不出来错误
+错3...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+          
+          <a class='avatar' href='/'><img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png'></a>
+          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png">
+            <meta itemprop="name" content="请设置文章作者">
+            <meta itemprop="url" content="/">
+          </span>
+        
+        <time itemprop="dateCreated datePublished" datetime="2023-10-19T13:43:19+08:00">2023-10-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" itemprop="url"><span itemprop="name">计算机网络</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2023/10/19/%E9%93%BE%E8%B7%AF%E5%B1%82%E4%B8%AD%E7%9A%84%E5%B7%AE%E9%94%99%E6%A3%80%E6%B5%8B%E5%92%8C%E7%BA%A0%E6%AD%A3%E6%8A%80%E6%9C%AF/' itemprop="url">
+            Read More
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
       
         
           <div class='post-wrapper'>
@@ -2657,18 +2751,20 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='md article-desc' itemprop="articleBody">
     
       
-        # TCP 提供的可靠数据传输服务
+         TCP提供的可靠数据传输服务
 
-在网络层服务，即 IP 服务，它不保证数据报能否交付，是否按次序交付，也不保证数据报中的数据的完整性
+在网络层服务,即IP服务,它不保证数据报能否交付,是否按次序交付,也不保证数据报中的数据的完整性
 
-TCP 在 IP 这种不可靠的服务之上建立了一种可靠数据传输服务。该服务确保一个进程从其接收缓存中读出的数据流是无损坏、无间隙、非冗余、按次序的数据流.
-根据 TCP 的一个高度简化的描述中:
+TCP在IP这种不可靠的服务之上建立了一种可靠数据传输服务.该服务确保一个进程从其接收缓存中读出的数据流是无损坏、无间隙、非冗余、按次序的数据流.
+根据TCP的一个高度简化的描述中:
 
 从上层应用中接收数据
 定时器超时
-收到 ACK
+收到ACK
 
-# T...
+ TCP在发送方的过程
+
+...
       
     
   </div>
@@ -2739,21 +2835,22 @@ TCP 在 IP 这种不可靠的服务之上建立了一种可靠数据传输服务
   <div class='md article-desc' itemprop="articleBody">
     
       
-        # 计算机网络：自顶向下
-# 因特网
-因特网就是计算机网络的概称 通俗来讲就是 “网络的网络”
-# 因特网的构成
+         计算机网络:自顶向下
+ 因特网
+因特网就是计算机网络的概称 通俗来讲就是“网络的网络”
+ 因特网的构成
 
 端系统或主机
 通信链路
-因特网服务提供商 (ISP)
- 以上结构都要运行多个 [[协议]], 其中最为重要的协议就是 TCP/IP 两个
+因特网服务提供商(ISP)
+以上结构都要运行多个[[协议]],其中最为重要的协议就是TCP/IP两个
 
-# 网络边缘
-我们通常把与因特网相连的计算机成为端系统，它们位于网络边缘
-# 接入网
+ 网络边缘
+我们通常把与因特网相连的计算机成为端系统,它们位于网络边缘
+ 接入网
 
-家庭接入：DSL、电缆、 FTTH 和 5G 固定...
+家庭接入:DSL、电缆、 FTTH和5G固定式无线
+企业接入:以太网和Wi...
       
     
   </div>
@@ -2898,7 +2995,7 @@ TCP 在 IP 这种不可靠的服务之上建立了一种可靠数据传输服务
           <li><a class="flat-box"
             title="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"
             active-action="action-categoriesE8AEA1E7AE97E69CBAE7BD91E7BB9C"
-            ><div class='name'>计算机网络</div><div class='badge'>(2)</div></a></li>
+            ><div class='name'>计算机网络</div><div class='badge'>(3)</div></a></li>
         
           <li><a class="flat-box"
             title="/categories/%E9%A2%98%E8%A7%A3/" href="/categories/%E9%A2%98%E8%A7%A3/"
@@ -2928,7 +3025,7 @@ TCP 在 IP 这种不可靠的服务之上建立了一种可靠数据传输服务
 
 
     <div class='content'>
-      <a href="/tags/TCP%E5%8D%8F%E8%AE%AE/" style="font-size: 14px; color: #999">TCP协议</a> <a href="/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/" style="font-size: 14px; color: #999">拓扑排序</a> <a href="/tags/%E6%A6%82%E8%AE%BA/" style="font-size: 14px; color: #999">概论</a> <a href="/tags/%E6%A8%A1%E7%89%88/" style="font-size: 14px; color: #999">模版</a> <a href="/tags/%E9%AB%98%E7%B2%BE%E5%BA%A6/" style="font-size: 14px; color: #999">高精度</a>
+      <a href="/tags/TCP%E5%8D%8F%E8%AE%AE/" style="font-size: 14px; color: #999">TCP协议</a> <a href="/tags/%E5%B7%AE%E9%94%99%E6%A3%80%E6%B5%8B%E5%92%8C%E7%BA%A0%E6%AD%A3%E6%8A%80%E6%9C%AF/" style="font-size: 14px; color: #999">差错检测和纠正技术</a> <a href="/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/" style="font-size: 14px; color: #999">拓扑排序</a> <a href="/tags/%E6%A6%82%E8%AE%BA/" style="font-size: 14px; color: #999">概论</a> <a href="/tags/%E6%A8%A1%E7%89%88/" style="font-size: 14px; color: #999">模版</a> <a href="/tags/%E9%AB%98%E7%B2%BE%E5%BA%A6/" style="font-size: 14px; color: #999">高精度</a>
     </div>
   </section>
 
@@ -4101,7 +4198,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <script>
-  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp"];
+  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp"];
   let index = 0;
   let IntervalParallax = null;
 
